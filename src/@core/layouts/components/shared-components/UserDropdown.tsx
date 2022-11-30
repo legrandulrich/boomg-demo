@@ -71,7 +71,7 @@ const UserDropdown = () => {
         anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
       >
         <Avatar
-          alt='John Doe'
+          alt='Manu Ma'
           onClick={handleDropdownOpen}
           sx={{ width: 40, height: 40 }}
           src='/images/avatars/1.png'

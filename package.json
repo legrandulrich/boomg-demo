@@ -54,6 +54,7 @@
     "apexcharts-clevision": "3.28.5",
     "clsx": "^1.1.1",
     "mdi-material-ui": "^7.1.0",
+    "mui-image": "^1.0.7",
     "next": "12.0.4",
     "nprogress": "^0.2.0",
     "react": "17.0.2",
@@ -64,6 +65,7 @@
     "react-popper": "^2.2.5"
   },
   "devDependencies": {
+    "@types/mui-image": "^1.0.1",
     "@types/node": "16.11.11",
     "@types/nprogress": "^0.2.0",
     "@types/react": "17.0.37",
