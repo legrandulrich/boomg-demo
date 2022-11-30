@@ -10,13 +10,14 @@ import ApexChartWrapper from 'src/@core/styles/libs/react-apexcharts'
 
 // ** Demo Components Imports
 import SalesByCountries from 'src/views/dashboard/SalesByCountries'
+import Education from 'src/views/dashboard/Education'
 
 const Dashboard = () => {
   return (
     <ApexChartWrapper>
       <Grid container spacing={6}>
         <Grid item xs={12} md={6} lg={4}>
-          <SalesByCountries />
+          <Education />
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
           <SalesByCountries />

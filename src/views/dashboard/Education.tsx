@@ -31,32 +31,32 @@ interface DataType {
 
 const data: DataType[] = [
   {
-    sales: '894k',
+    sales: '1.5k',
     trendDir: 'up',
-    subtitle: 'USA',
-    title: '$8,656k',
-    avatarText: 'US',
-    trendNumber: '25.8%',
+    subtitle: '',
+    title: 'Global School',
+    avatarText: 'GS',
+    trendNumber: '78.8%',
     avatarColor: 'success',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   },
   {
-    sales: '645k',
-    subtitle: 'UK',
-    trendDir: 'down',
-    title: '$2,415k',
-    avatarText: 'UK',
-    trendNumber: '6.2%',
+    sales: '1k',
+    subtitle: '',
+    trendDir: 'up',
+    title: 'Parent Control',
+    avatarText: 'PC',
+    trendNumber: '100%',
     avatarColor: 'error',
     trend: <ChevronDown sx={{ color: 'error.main', fontWeight: 600 }} />
   },
   {
-    sales: '148k',
-    title: '$865k',
+    sales: '2k',
+    title: 'e-Learning',
     trendDir: 'up',
-    avatarText: 'IN',
-    subtitle: 'India',
-    trendNumber: '12.4%',
+    avatarText: 'e-L',
+    subtitle: '',
+    trendNumber: '56.4%',
     avatarColor: 'warning',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   },
@@ -86,7 +86,7 @@ const SalesByCountries = () => {
   return (
     <Card>
       <CardHeader
-        title='Sales by Countries'
+        title='BoomG Education'
         titleTypographyProps={{ sx: { lineHeight: '1.2 !important', letterSpacing: '0.31px !important' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
