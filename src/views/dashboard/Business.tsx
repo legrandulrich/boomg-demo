@@ -31,63 +31,63 @@ interface DataType {
 
 const data: DataType[] = [
   {
-    sales: '1.5k',
+    sales: '2.5k',
     trendDir: 'up',
     subtitle: '',
-    title: 'Global School',
-    avatarText: 'GS',
-    trendNumber: '78.8%',
-    avatarColor: 'success',
+    title: 'Wallet',
+    avatarText: 'BW',
+    trendNumber: '70%',
+    avatarColor: 'secondary',
     trend: <ChevronUp sx={{ color: 'error.main', fontWeight: 600 }} />
   },
   {
-    sales: '1k',
+    sales: '3k',
     subtitle: '',
     trendDir: 'up',
-    title: 'Parent Control',
-    avatarText: 'PC',
-    trendNumber: '95%',
-    avatarColor: 'error',
+    title: 'Consulting',
+    avatarText: 'BC',
+    trendNumber: '90%',
+    avatarColor: 'warning',
     trend: <ChevronDown sx={{ color: 'error.main', fontWeight: 600 }} />
   },
   {
+    sales: '1k',
+    title: 'Bill Pay',
+    trendDir: 'up',
+    avatarText: 'BP',
+    subtitle: '',
+    trendNumber: '59%',
+    avatarColor: 'error',
+    trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
+  },
+  {
     sales: '2k',
-    title: 'e-Learning',
+    title: 'API',
     trendDir: 'up',
-    avatarText: 'e-L',
-    subtitle: '',
-    trendNumber: '56.4%',
-    avatarColor: 'warning',
-    trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
-  },
-  {
-    sales: '3k',
-    title: 'News',
-    trendDir: 'up',
-    avatarText: 'NW',
-    subtitle: '',
-    trendNumber: '100%',
-    avatarColor: 'secondary',
-    trend: <ChevronDown sx={{ color: 'success.main', fontWeight: 600 }} />
-  },
-  {
-    sales: '1.3k',
-    title: 'Blockchain, DeFi',
-    trendDir: 'up',
-    avatarText: 'BD',
-    subtitle: '',
-    trendNumber: '100%',
-    avatarColor: 'warning',
-    trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
-  },
-  {
-    sales: '100',
-    title: 'Coding Game',
-    trendDir: 'up',
-    avatarText: 'CC',
+    avatarText: 'API',
     subtitle: '',
     trendNumber: '100%',
     avatarColor: 'success',
+    trend: <ChevronDown sx={{ color: 'success.main', fontWeight: 600 }} />
+  },
+  {
+    sales: '1.6k',
+    title: 'Smart Contract',
+    trendDir: 'up',
+    avatarText: 'SC',
+    subtitle: '',
+    trendNumber: '100%',
+    avatarColor: 'warning',
+    trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
+  },
+  {
+    sales: '400',
+    title: 'Price tracking',
+    trendDir: 'up',
+    avatarText: 'PT',
+    subtitle: '',
+    trendNumber: '100%',
+    avatarColor: 'secondary',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   }
 ]
