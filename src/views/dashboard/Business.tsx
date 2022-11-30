@@ -92,11 +92,11 @@ const data: DataType[] = [
   }
 ]
 
-const Education = () => {
+const Business = () => {
   return (
     <Card>
       <CardHeader
-        title='BoomG Education'
+        title='BoomG Business'
         titleTypographyProps={{ sx: { lineHeight: '1.2 !important', letterSpacing: '0.31px !important' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
@@ -176,4 +176,4 @@ const Education = () => {
   )
 }
 
-export default Education
+export default Business

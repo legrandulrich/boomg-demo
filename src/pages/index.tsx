@@ -9,8 +9,12 @@ import Grid from '@mui/material/Grid'
 import ApexChartWrapper from 'src/@core/styles/libs/react-apexcharts'
 
 // ** Demo Components Imports
-import SalesByCountries from 'src/views/dashboard/SalesByCountries'
 import Education from 'src/views/dashboard/Education'
+import Health from 'src/views/dashboard/Health'
+import Commerce from 'src/views/dashboard/Commerce'
+import Business from 'src/views/dashboard/Business'
+
+
 
 const Dashboard = () => {
   return (
@@ -20,13 +24,13 @@ const Dashboard = () => {
           <Education />
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <SalesByCountries />
+          <Health />
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <SalesByCountries />
+          <Commerce />
         </Grid>
         <Grid item xs={12} md={6} lg={4}>
-          <SalesByCountries />
+          <Business />
         </Grid>
       </Grid>
     </ApexChartWrapper>

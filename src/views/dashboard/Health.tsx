@@ -31,72 +31,72 @@ interface DataType {
 
 const data: DataType[] = [
   {
-    sales: '1.5k',
+    sales: '2.5k',
     trendDir: 'up',
     subtitle: '',
-    title: 'Global School',
-    avatarText: 'GS',
-    trendNumber: '78.8%',
-    avatarColor: 'success',
+    title: 'Health Care',
+    avatarText: 'HC',
+    trendNumber: '70%',
+    avatarColor: 'secondary',
     trend: <ChevronUp sx={{ color: 'error.main', fontWeight: 600 }} />
   },
   {
-    sales: '1k',
+    sales: '3k',
     subtitle: '',
     trendDir: 'up',
-    title: 'Parent Control',
-    avatarText: 'PC',
-    trendNumber: '95%',
-    avatarColor: 'error',
+    title: 'Hospital',
+    avatarText: 'HP',
+    trendNumber: '90%',
+    avatarColor: 'warning',
     trend: <ChevronDown sx={{ color: 'error.main', fontWeight: 600 }} />
   },
   {
+    sales: '1k',
+    title: 'e-Health',
+    trendDir: 'up',
+    avatarText: 'e-H',
+    subtitle: '',
+    trendNumber: '59%',
+    avatarColor: 'error',
+    trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
+  },
+  {
     sales: '2k',
-    title: 'e-Learning',
+    title: 'Traditional Med.',
     trendDir: 'up',
-    avatarText: 'e-L',
-    subtitle: '',
-    trendNumber: '56.4%',
-    avatarColor: 'warning',
-    trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
-  },
-  {
-    sales: '3k',
-    title: 'News',
-    trendDir: 'up',
-    avatarText: 'NW',
-    subtitle: '',
-    trendNumber: '100%',
-    avatarColor: 'secondary',
-    trend: <ChevronDown sx={{ color: 'success.main', fontWeight: 600 }} />
-  },
-  {
-    sales: '1.3k',
-    title: 'Blockchain, DeFi',
-    trendDir: 'up',
-    avatarText: 'BD',
-    subtitle: '',
-    trendNumber: '100%',
-    avatarColor: 'warning',
-    trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
-  },
-  {
-    sales: '100',
-    title: 'Coding Game',
-    trendDir: 'up',
-    avatarText: 'CC',
+    avatarText: 'TM',
     subtitle: '',
     trendNumber: '100%',
     avatarColor: 'success',
+    trend: <ChevronDown sx={{ color: 'success.main', fontWeight: 600 }} />
+  },
+  {
+    sales: '1.6k',
+    title: 'Sport',
+    trendDir: 'up',
+    avatarText: 'SP',
+    subtitle: '',
+    trendNumber: '100%',
+    avatarColor: 'warning',
+    trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
+  },
+  {
+    sales: '400',
+    title: 'Tourism',
+    trendDir: 'up',
+    avatarText: 'TR',
+    subtitle: '',
+    trendNumber: '100%',
+    avatarColor: 'secondary',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   }
 ]
 
-const Education = () => {
+const Health = () => {
   return (
     <Card>
       <CardHeader
-        title='BoomG Education'
+        title='BoomG Santé'
         titleTypographyProps={{ sx: { lineHeight: '1.2 !important', letterSpacing: '0.31px !important' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
@@ -176,4 +176,4 @@ const Education = () => {
   )
 }
 
-export default Education
+export default Health
