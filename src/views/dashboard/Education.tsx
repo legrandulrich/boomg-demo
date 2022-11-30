@@ -48,7 +48,7 @@ const data: DataType[] = [
     avatarText: 'PC',
     trendNumber: '100%',
     avatarColor: 'error',
-    trend: <ChevronDown sx={{ color: 'error.main', fontWeight: 600 }} />
+    trend: <ChevronDown sx={{ color: 'success.main', fontWeight: 600 }} />
   },
   {
     sales: '2k',
@@ -61,28 +61,38 @@ const data: DataType[] = [
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   },
   {
-    sales: '86k',
-    title: '$745k',
-    trendDir: 'down',
-    avatarText: 'JA',
-    subtitle: 'Japan',
-    trendNumber: '11.9%',
+    sales: '3k',
+    title: 'News',
+    trendDir: 'up',
+    avatarText: 'NW',
+    subtitle: '',
+    trendNumber: '100%',
     avatarColor: 'secondary',
-    trend: <ChevronDown sx={{ color: 'error.main', fontWeight: 600 }} />
+    trend: <ChevronDown sx={{ color: 'success.main', fontWeight: 600 }} />
   },
   {
-    sales: '42k',
-    title: '$45k',
+    sales: '1.3k',
+    title: 'Blockchain, DeFi',
     trendDir: 'up',
-    avatarText: 'KO',
-    subtitle: 'Korea',
-    trendNumber: '16.2%',
-    avatarColor: 'error',
+    avatarText: 'BD',
+    subtitle: '',
+    trendNumber: '100%',
+    avatarColor: 'warning',
+    trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
+  },
+  {
+    sales: '100',
+    title: 'Coding Game',
+    trendDir: 'up',
+    avatarText: 'CC',
+    subtitle: '',
+    trendNumber: '100%',
+    avatarColor: 'success',
     trend: <ChevronUp sx={{ color: 'success.main', fontWeight: 600 }} />
   }
 ]
 
-const SalesByCountries = () => {
+const Education = () => {
   return (
     <Card>
       <CardHeader
@@ -166,4 +176,4 @@ const SalesByCountries = () => {
   )
 }
 
-export default SalesByCountries
+export default Education
