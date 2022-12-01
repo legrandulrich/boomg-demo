@@ -90,32 +90,32 @@ const navigation = (): VerticalNavItemsType => {
     {
       title: 'e-Tontine',
       icon: GoogleCirclesExtended,
-      path: '/commerce/'
+      path: '/commerce/e-tontine'
     },
     {
       title: 'Shop',
       icon: GoogleCirclesExtended,
-      path: '/commerce/'
+      path: '/commerce/shop'
     },
     {
-      title: 'Reservation',
+      title: 'Location & Reservation',
       icon: GoogleCirclesExtended,
-      path: '/commerce/'
+      path: '/commerce/location-reservation'
     },
     {
       title: 'Delivery',
       icon: GoogleCirclesExtended,
-      path: '/commerce/'
+      path: '/commerce/delivery'
     },
     {
       title: 'Travel agency',
       icon: GoogleCirclesExtended,
-      path: '/commerce/'
+      path: '/commerce/travel-agency'
     },
     {
       title: 'Wedding planner',
       icon: GoogleCirclesExtended,
-      path: '/commerce/'
+      path: '/commerce/wedding-planner'
     },
     {
       sectionTitle: 'BoomG Business'
