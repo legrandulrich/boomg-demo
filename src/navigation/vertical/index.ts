@@ -26,6 +26,48 @@ const navigation = (): VerticalNavItemsType => {
       path: '/account-settings'
     },
     {
+      sectionTitle: 'BoomG Education'
+    },
+    {
+      title: 'Global School',
+      icon: GoogleCirclesExtended,
+      path: '/education/global-school'
+    },
+    {
+      title: 'Parent Control',
+      icon: GoogleCirclesExtended,
+      path: '/education/parent-control'
+    },
+    {
+      title: 'e-Learning',
+      icon: GoogleCirclesExtended,
+      path: '/education/e-learning'
+    },
+    {
+      title: 'News',
+      icon: GoogleCirclesExtended,
+      path: '/education/news'
+    },
+    {
+      title: 'Blockchain & DeFi',
+      icon: GoogleCirclesExtended,
+      path: '/education/blockchain-defi'
+    },
+    {
+      title: 'Coding Game',
+      icon: GoogleCirclesExtended,
+      path: '/education/coding-game'
+    },
+    {
+      sectionTitle: 'BoomG Santé'
+    },
+    {
+      sectionTitle: 'BoomG Commerce'
+    },
+    {
+      sectionTitle: 'BoomG Business'
+    },
+    {
       sectionTitle: 'Pages'
     },
     {
