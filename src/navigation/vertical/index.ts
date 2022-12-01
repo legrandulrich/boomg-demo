@@ -123,32 +123,32 @@ const navigation = (): VerticalNavItemsType => {
     {
       title: 'Wallet',
       icon: GoogleCirclesExtended,
-      path: '/business/'
+      path: '/business/wallet'
     },
     {
       title: 'Consulting',
       icon: GoogleCirclesExtended,
-      path: '/business/'
+      path: '/business/consulting'
     },
     {
       title: 'Bill Pay',
       icon: GoogleCirclesExtended,
-      path: '/business/'
+      path: '/business/bill-pay'
     },
     {
       title: 'API',
       icon: GoogleCirclesExtended,
-      path: '/business/'
+      path: '/business/api'
     },
     {
       title: 'Smart Contract',
       icon: GoogleCirclesExtended,
-      path: '/business/'
+      path: '/business/smart-contract'
     },
     {
       title: 'Price tracking',
       icon: GoogleCirclesExtended,
-      path: '/business/'
+      path: '/business/price-tracking'
     },
 
   ]

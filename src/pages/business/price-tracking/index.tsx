@@ -7,7 +7,7 @@ const Icons = () => {
     <Grid container spacing={6}>
       <Grid item xs={12}>
         <Typography variant='h5'>
-          App
+        Price tracking App
         </Typography>
       </Grid>
       <Grid item xs={12}>
